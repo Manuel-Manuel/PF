@@ -17,7 +17,7 @@ function d3() {
     }
 }
 function fk (i)  {
-        gf[i].innerHTML = ik + ' ';
+        gf[i].innerHTML = ' ' + ik;
         ww();
     }
 function ddd() {
@@ -66,6 +66,6 @@ function ee() {
       }
 }
 function ss (i)  {
-        gf[i].innerHTML = user + ' ';
+        gf[i].innerHTML = ' ' + user;
         ww();
     }
