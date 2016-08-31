@@ -1,4 +1,14 @@
-var T = ['<a href="http://psicologiafemminile.blogspot.com/2016/08/il-narcisista-si-innamora.html">Il narcisista si innamora davvero?</a>',
+var T = [//'<a href="LINK">TESTO</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/genitori-single-come-migliorare-la.html">Genitori single: migliora la tua vita da madre single!</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/il-mio-ragazzo-non-mi-ama-cambia-il.html">Il mio ragazzo non mi ama...lo hai mai pensato? Leggi qui!</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/paura-di-amare-come-sconfiggerla.html">Paura di amare: come sconfiggerla subito!</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/rapporto-genitori-figli-perche-oggi-gli.html">Rapporto genitori figli: educhi meglio tu od un anime?</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/mal-damore-come-superare-una.html">Mal d amore: come superare una separazione ed il dolore ora.</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/come-dimenticare-un-amore.html">Come dimenticare un amore quando l\'amore fa male!</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/come-salvare-un-matrimonio.html">Come salvare un matrimonio? Salvalo così!</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/ansia-da-relazione-soluzioni.html">Elimina la tua ansia da relazione! Soluzioni da mettere subito in pratica!</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/rapporto-madre-figlia-meta-psicologia.html">Rapporto madre figlia: vuoi essere la mamma perfetta?</a>',
+  '<a href="http://psicologiafemminile.blogspot.com/2016/08/il-narcisista-si-innamora.html">Il narcisista si innamora davvero?</a>',
   '<a href="http://psicologiafemminile.blogspot.com/2016/08/psicologia-femminile-una-guida.html">Psicologia Femminile:parti da qui!</a>',
   '<a href="http://psicologiafemminile.blogspot.com/2016/08/come-piacere-ad-un-ragazzo.html">Come piacere ad un ragazzo?</a>',
   '<a href="http://psicologiafemminile.blogspot.com/2016/08/cosa-bisogna-apprendere-prima-di.html">Cosa bisogna apprendere prima di piacere ad un ragazzo?</a>',
@@ -70,7 +80,6 @@ var T = ['<a href="http://psicologiafemminile.blogspot.com/2016/08/il-narcisista
 
 
 var JJ = document.querySelectorAll('li.linkRam');
-var er = document.getElementById('er');
 var i;
 
 for (i = 0; i < JJ.length; i++) {
