@@ -1,2 +1,0 @@
-var kol909=window.location.pathname,l989=0,lop00=['/p/disattiva-il-tuo-anti-block.html','/p/disattiva-il-tuo-anti-block.html','/p/disattiva-il-tuo-anti-block.html?m=1','/p/disattiva-il-tuo-anti-block.html?m=1'];for(var iii=0,il08=lop00.length; iii<il08;iii++){if (kol909===lop00[iii]){console.log('meh')}else{l989++}}
-if(l989>=4){var PP=document.getElementById('google_ads_frame1');if (PP=== null||PP.style.display==='none'||PP.style.visibility==='hidden'){window.location.assign("https://psicologiafemminile.blogspot.com/p/disattiva-il-tuo-anti-block.html")}}
